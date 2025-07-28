@@ -15,7 +15,10 @@
 # Default Values
 substitutions:
   _SERVICE_NAME: hello-cloudrun
-  _REGION: us-east1
+  _REGION: us-east1gcloud builds connections create github cloud-build-connection --project=$PROJECT_ID  --region=$REGION 
+
+gcloud builds connections describe cloud-build-connection --region=$REGION 
+
 
 steps:
 
