@@ -21,7 +21,6 @@ gcloud builds connections describe cloud-build-connection --region=$REGION
 
 
 steps:
-
   # Route Traffic
   - id: "route prod traffic"
     name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
